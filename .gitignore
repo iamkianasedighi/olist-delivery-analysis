@@ -1,0 +1,11 @@
+# Keep the original Olist dataset local
+data/raw/*
+!data/raw/README.md
+!data/raw/.gitkeep
+
+# Local environment files
+.env
+.venv/
+__pycache__/
+*.pyc
+.DS_Store
